@@ -4,3 +4,4 @@
 2. program that prints the alphabet in lowercase
 3. program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
 4. Program prints alphabet except q and e
+5. Prints 0-9
