@@ -1,23 +1,15 @@
 #include "main.h"
-
 /**
- * print_rev - minic the stdio version of puts
- * @s: the value to process to the stdout in reverse.
+ * _print_rev_recursion - Prints a string in reverse, followed by a new line.
+ * @s: the string to be printed
+ *
  */
-
-void print_rev(char *s)
+void _print_rev_recursion(char *s)
 {
-int i;
-while (s[i] != '\0')
-{
-i++;
+	if (s[0] != '\0')
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(s[0]);
+	}
 }
-i--;
-while (s[i] != '\0')
-{
-_putchar(s[i--]);
-}
-_putchar('\n');
-}
-
 
