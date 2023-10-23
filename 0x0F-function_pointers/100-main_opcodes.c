@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main 
+ * main - check the code for ALX School students.
  * @argc: argument count.
  * @argv: argument vector.
  *
